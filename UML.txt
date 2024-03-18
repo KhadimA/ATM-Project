@@ -1,0 +1,33 @@
++---------------------------------------+
+|               ATM                     |
++---------------------------------------+
+| - bankName: String                    |
+| - branchCode: int                     |
+| - city: String                        |
+| - availableCash: int                  |
+| - cashLimit: int                      |
+| - transactionList: List<String>       |
++---------------------------------------+
+| + ATM(bankName: String,               |
+|       branchCode: int,                |
+|       city: String,                   |
+|       cashLimit: int)                 |
+| + depositCash(amount: int): void      |
+| + withdrawMoney(amount: int): boolean |
+| + getAvailableCash(): int             |
+| + isAboveLimit(amount: int): boolean  |
+| + getTransactionList(): List<String>  |
++---------------------------------------+
+
++-----------------------------------+
+|              User                 |
++-----------------------------------+
+| - userId: String                  |
+| - pin: int                        |
++-----------------------------------+
+| + User(userId: String,            |
+|        pin: int)                  |
+| + getUserId(): String             |
+| + getPin(): int                   |
+| + setPin(pin: int): void          |
++-----------------------------------+
